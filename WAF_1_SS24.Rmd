@@ -149,7 +149,6 @@ class: top, left
 
 ---
 class: top, left
-<div class="footer"><span>https://www.robertoferraro.net/illustrations</span></div>
 
 ### Übergeordnetes Konzept
 
@@ -157,12 +156,15 @@ class: top, left
 
 Sie sollen...
 * ...Erfahrungen mit Ihrer ersten Mini-Forschungsarbeit sammeln, indem Sie von sich gegenseitig Daten erheben
+
 * ...mit jeder Sitzung ein Schritt des Forschungsprozesses bearbeiten
+
 * ...im Begleitseminar mit eigenen Daten arbeiten können
+
 * ...bewusst "Learning by Doing" praktizieren - Fehler im Prozess helfen zu lernen
 
 
-Ihre Note hängt am Ende nicht davon ab, wie komplex Ihre Ideen und/oder Analysen waren, oder wie viele Fehler Sie *auf dem Weg* gemacht haben, sondern von der transparenten und nachvollziehbaren Beschreibung Ihres Forschungsprozesses in der Präregistrierung und im empirischen Bericht, sowie der wissenschaftlichen Argumentation darin `\(\rightarrow\)` Bewertungsschema auf studynet
+**CAVE:** Ihre Note hängt nicht davon ab, wie komplex Ihre Ideen und/oder Analysen waren, oder wie viele Fehler Sie **auf dem Weg** gemacht haben, sondern von der transparenten und nachvollziehbaren Beschreibung Ihres Forschungsprozesses in der Präregistrierung und im empirischen Bericht, sowie der wissenschaftlichen Argumentation darin `\(\rightarrow\)` Bewertungsschema auf studynet
 
 ---
 class: top, left
@@ -173,7 +175,8 @@ class: top, left
 * Projektbericht (Präregistrierung + empirischer Forschungsbericht) in Englisch oder Deutsch als Gruppenarbeit (5 Studierende) `\(\rightarrow\)` [siehe Beispiele auf studynet](TODO)
 
 .pull-left[
-* **Präregistrierung**
+* **Teil 1: Präregistrierung**
+
   - Heute: Präregistrierung - Was und Warum?
   - Kommende Sitzungen: Präregistrierung - Wie?
   - Präregistrierung wird nicht inhaltlich bewertet, muss aber mit abgegeben werden
@@ -181,9 +184,10 @@ class: top, left
 ]
 
 .pull-right[
-* **Empirischer Forschungsbericht**
-  - **Gruppenanteil**: Formulierung von Einleitung und Methodenteil ( `\(\rightarrow\)` Vorarbeit in der Präregistrierung) + Open Data und Codebook
-  - **Einzelanteil**: Formulierung von Ergebnisteil, Diskussion, und Abstract + R-Skripte
+* **Teil 2: Empirischer Forschungsbericht (Paper)**
+
+  - Gruppenanteil: Formulierung von Einleitung und Methodenteil ( `\(\rightarrow\)` Vorarbeit in der Präregistrierung) + Open Data und Codebook
+  - Einzelanteil: Formulierung von Ergebnisteil, Diskussion, und Abstract + R-Skripte
 ]
 
 * Note setzt sich zusammen aus der Bewertung des Gruppenanteils (einfach gewichtet) und Bewertung des Einzelanteils (doppelt gewichtet) `\(\rightarrow\)` Bewertungsschema auf studynet
@@ -192,18 +196,19 @@ class: top, left
 class: top, left
 ### Aufbau jeder Sitzung und wichtige Zwischentermine
 
-#### Häufiger Aufbau der Sitzungen
+#### Aufbau der Sitzungen:
 
 * **Teil 1: Hintergrundwissen, Theoretischer Input**
+
 * **Teil 2: Praxisarbeit in Gruppen (welche in Eigenregie nach der Vorlesung abgeschlossen werden muss!)**
 
-#### Wichtige Zwischentermine
+#### Wichtige Zwischentermine (Milestones):
 
-* **Bis zum 26.04.**: Abgabe Gruppenname & Thema 
+* **Bis zum 26.04.2024**: Abgabe Gruppenname & Thema 
 
 * 08.05., 15.05. oder (spätestens) 22.05.: Möglichkeit für kurzes persönliches Feedback von mir während der Sitzung
 
-* **Bis zum 24.05.**: Finalisierung Präregistrierung
+* **Bis zum 24.05.2024**: Finalisierung Präregistrierung
 
 ---
 class: top, left
@@ -211,6 +216,8 @@ class: top, left
 ### Forschungsthemen
 
 #### Eigenes Thema - Vorgaben
+
+<small>
 
 Auswahl von Thema, die mit folgenden Variablen/Variablenkategorien untersuchbar sind:
 
@@ -238,12 +245,12 @@ class: top, left
 * Effekt der Darbietung einer Information auf Einstellungen oder Zufriedenheit in einem bestimmten Bereich
 
 **Beispiele für ungünstige Themen**:
-* Abfrage sensibler Inhalte nötig, z.B. zur Krankheitsgeschichte, Sexualität, Intelligenz, Untreue,...
-* Untersuchung seltener Merkmale, z.B. besondere Lebenserfahrungen oder -umstände
+* Abfrage sensibler Inhalte, z.B. zur Krankheitsgeschichte, Sexualität, Intelligenz, Untreue,...
+* Untersuchung extrem seltener Merkmale, z.B. besondere Lebenserfahrungen oder -umstände
 
 `\(\rightarrow\)` **Es darf kein Ethikantrag nötig sein!**
 
-`\(\rightarrow\)` **siehe Zusatzmaterial ["Ethik Checkliste" auf studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=26580).**
+`\(\rightarrow\)` siehe Zusatzmaterial **"Ethik Checkliste"** auf studynet
 
 ---
 class: top, left
@@ -253,13 +260,13 @@ class: top, left
 #### Angemessen komplexe Analysen wählen
 
 
-* t-test für unabhängige Stichproben für einen Mittelwertsvergleich zwischen zwei Gruppen
+* t-Test für unabhängige Stichproben für einen Mittelwertsvergleich zwischen zwei Gruppen
 
 * Korrelationsanalyse für den Zusammenhang zwischen zwei Variablen
 
 * Lineare Regression ausschließlich mit Haupteffekten oder maximal einem Interaktionseffekt für die Vorhersage einer stetigen/numerischen abhängigen Variable (z.B. Skala aus Likert-Items)
 
-* t-test für abhängige Stichproben für Mittelwertsunterschiede auf einer Variable in einem Pre-Post-Design
+* T-test für abhängige Stichproben für Mittelwertsunterschiede auf einer Variable in einem Pre-Post-Design
 
 * 2-faktorielle ANOVA für ein Pre-Post-Design mit Experimental- und Kontrollgruppe (generell bei UV: nicht zuviele Stufen!) für eine stetige/numerischen abhängige Variable
 
@@ -393,7 +400,6 @@ class: top, left
 ]
 
 .pull-right[
-<img src="data:image/png;base64,#bilder/bem.png" width="40%" style="display: block; margin: auto;" />
 ]
 
 **Reaktionen**:
@@ -853,7 +859,7 @@ class: top, left
 
 **Schritt 1: Themenwahl**
   * Überlegen Sie sich welche Option (eigenes Thema/Interventionsthema) Sie anspricht.
-    - Lesen Sie sich das [Zusatzmaterial "Themensuche" auf dem studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=26582) durch.
+    - Lesen Sie sich das [Material "Themensuche" auf dem studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=26582) durch.
     - Gehen Sie die Variablen auf Folie 13 durch, und folgen Sie den Links für weitere mögliche untersuchbare Variablen.
     - Sammeln Sie Ideen und Themenvorschläge mit dem Bezug zur Psychologie, die Sie interessieren.
 
@@ -874,7 +880,7 @@ class: top, left
   
 **Schritt 4: Einigen Sie sich nach der nächsten Vorlesung auf ein Thema und geben Sie Ihrer Gruppe einen Namen**
   * Idealerweise hat Ihr Gruppenname etwas mit Ihrem Thema zu tun
-  * Teilen Sie mir Ihren Gruppennamen und Ihr Thema **bis spätestens (!) 26.04.** schriftlich mit (stephan.goerigk@charlotte-fresenius-uni.de)
+  * Teilen Sie mir Ihren Gruppennamen und Ihr Thema **bis spätestens (!) 26.04.2024** schriftlich mit (stephan.goerigk@charlotte-fresenius-uni.de)
   
 <!-- library(renderthis)  -->
 <!-- Vorsicht: html sollte nicht parallel offen sein -->
