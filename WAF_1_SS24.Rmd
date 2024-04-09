@@ -56,7 +56,7 @@ class: middle, left
 # Wissenschaftliches Arbeiten und Forschungsmethoden
 ***
 ### Einheit 1: Grundlagen und Präregistrierung
-##### `r format(as.Date(data.frame(readxl::read_excel("Modul Quantitative Methoden II_Termine.xlsx"))$Datum), "%d.%m.%Y")[1]` | Prof. Dr. Stephan Goerigk
+##### `r format(as.Date(data.frame(readxl::read_excel("WAF_SS24_Termine.xlsx"))$Datum), "%d.%m.%Y")[1]` | Prof. Dr. Stephan Goerigk
 
 ---
 class: top, left
@@ -120,7 +120,7 @@ class: top, left
 ### Termine
 
 ```{r echo = F}
-df = readxl::read_xlsx("Modul Quantitative Methoden II_Termine.xlsx", sheet = "Tabelle1")[1:13, 1:3]
+df = readxl::read_excel("WAF_SS24_Termine.xlsx")[1:13, 1:3]
 df$Datum = format(as.Date(df$Datum), "%d.%m.%Y")
 df %>%
   kbl() %>%
