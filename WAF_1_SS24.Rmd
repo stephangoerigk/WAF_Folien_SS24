@@ -294,12 +294,15 @@ name: praxis
 <small>
 
 **Schritt 1: Themenwahl**
-    - Lesen Sie sich das [Zusatzmaterial "Themensuche" auf dem studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=26582) durch.
-    - Gehen Sie die Variablen auf Folie 13 durch, und folgen Sie den Links für weitere mögliche untersuchbare Variablen.
-    - Sammeln Sie Ideen und Themenvorschläge mit dem Bezug zur Psychologie, die Sie interessieren.
+* Lesen Sie sich das [Zusatzmaterial "Themensuche" auf dem studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=26582) durch.
+
+* Gehen Sie die Variablen auf Folie 13 durch, und folgen Sie den Links für weitere mögliche untersuchbare Variablen.
+
+* Sammeln Sie Ideen und Themenvorschläge mit dem Bezug zur Psychologie, die Sie interessieren.
 
 **Schritt 2: Finden Sie Gruppenmitglieder**
   * Bitte von mir an die Semestersprecher die Kommiliton:innen bei der Gruppenfindung zu unterstützen. Im Zweifelsfall möglichst gleichmäßige Aufteilung auf die beiden Optionen (eigenes Thema / Interventionsthema).
+  
   * Weniger als 5 Personen sind nur möglich, wenn es am Ende nicht aufgeht. Das heißt: Ihre Gruppe ist zunächst nicht vollständig, wenn Sie nicht zu 5. sind.
   
 ---
