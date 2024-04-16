@@ -342,7 +342,7 @@ class: top, left
 **Google Scholar**: https://scholar.google.de/
 
 .center[
-```{r, echo=FALSE,out.width="40%",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,fig.show='hold',fig.align='center', out.width = "360px"}
 knitr::include_graphics("bilder/scholar.png")
 ``` 
 ]
