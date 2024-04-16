@@ -97,7 +97,7 @@ class: top, left
 
 .center[
 ```{r, echo=FALSE,out.width="30%",fig.cap="Kapitel 1.2, 5 und 6 in Döring, N. & Bortz, J. (2016). Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften. Pearson.",fig.show='hold',fig.align='center'}
-knitr::include_graphics("bilder/doering.PNG")
+knitr::include_graphics("bilder/doering.png")
 ``` 
 ]
 ---
