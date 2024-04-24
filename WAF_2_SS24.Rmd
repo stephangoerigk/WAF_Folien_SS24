@@ -190,21 +190,6 @@ class: top, left
 knitr::include_graphics("bilder/forschungsfrage.png")
 ```
 
----
-class: top, left
-
-### Entwicklung einer Fragestellung
-
-#### Beispiel Interventionsthema
-
-* **Inhaltliche Eingrenzung des Gegenstands**: Zielgruppe steht zwar fest (Personen in Partnerschaften), aber weitere Effekte (ggf. Zeiträume) für eigene Forschungsfrage noch zu klären
-
-* **Bezug zum empirischen Forschungsstand**: Empirischer Forschungsstand zum Anhören von Musik muss recherchiert werden (z.B. mit den Suchbegriffen "effect of songs on psychological outcomes", "music interventions", "song lyrics psychological outcomes", "music song ecological momentary intervention") und Identifikation einer Forschungslücke oder Replikation
-
-* **Wahl der Theorie(n)**: Von mir wird es eine kurze Info zu einer Theorie geben, warum wir davon ausgehen, dass Musik unseren gewünschten Effekt haben könnte. Darüber hinaus kann man recherchieren: Gibt es Theorien wie das Anhören von Musik grundsätzlich wirkt? 
-
-* **Wahl der Methode(n)**: Design weitestgehend festgelegt: Experiment mit Interventions- vs. Kontrollgruppe (between-person Vergleich); Datenauswertung hängt von der eigenen Forschungsfrage + Hypothese ab 
-
 
 ---
 class: top, left
