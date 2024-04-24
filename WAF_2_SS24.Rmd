@@ -55,7 +55,7 @@ class: middle, left
 <br><br><br><br><br><br><br>
 # Wissenschaftliches Arbeiten und Forschungsmethoden
 ***
-### Einheit 2: Studienorganisation, Literaturrecherche & Bewertung von Untersuchungsideen
+### Einheit 2: Literaturrecherche, Bewertung von Untersuchungsideen & Referenzen
 ##### `r format(as.Date(data.frame(readxl::read_excel("WAF_SS24_Termine.xlsx"))$Datum), "%d.%m.%Y")[2]` | Prof. Dr. Stephan Goerigk
 
 ---
@@ -133,9 +133,29 @@ name: forschungsprozess-prereg
 
 #### Fragestellung im Forschungsprozess
 
+.pull-left[
+**Was gehört zur Studienplanung?**
+
+1. Theoriearbeit und Literaturrecherche `\(\rightarrow\)` heutige und nächste Sitzung
+
+2. Hypothesenformulierung `\(\rightarrow\)` nächste Sitzung
+
+3. Design Plan `\(\rightarrow\)` nächste Sitzung
+
+4. Variablen (Auswahl Messinstrumente und Variablenrollen)  `\(\rightarrow\)` übernächste Sitzung, Einheit 4
+
+5. Statistischer Analyseplan  `\(\rightarrow\)` Einheit 5
+
+6. Sampling plan (Rekrutierungsplan) `\(\rightarrow\)` Einheit 6
+
+`\(\rightarrow\)` Studienplanung in **Präregistrierung** festhalten
+]
+
+.pull-right[
 ```{r eval = TRUE, echo = F, out.width="60%", fig.align='center'}
 knitr::include_graphics("bilder/Forschungsprozess_Prereg.png")
 ```
+] 
 
 
 ---
@@ -156,6 +176,8 @@ class: top, left
 
 **Vorsicht: Forschungsfrage nicht zu allgemein formulieren!**
 
+`\(\rightarrow\)` siehe den Abschnitt "Bewertung von Forschungsfragen" im Materialordner auf studynet
+
 ---
 class: top, left
 <div class="footer"><span>Kapitel 5.1 in Döring, N. & Bortz, J. (2016). Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften. Pearson. </span></div>
@@ -167,6 +189,22 @@ class: top, left
 ```{r eval = TRUE, echo = F, fig.align='center'}
 knitr::include_graphics("bilder/forschungsfrage.png")
 ```
+
+---
+class: top, left
+
+### Entwicklung einer Fragestellung
+
+#### Beispiel Interventionsthema
+
+* **Inhaltliche Eingrenzung des Gegenstands**: Zielgruppe steht zwar fest (Personen in Partnerschaften), aber weitere Effekte (ggf. Zeiträume) für eigene Forschungsfrage noch zu klären
+
+* **Bezug zum empirischen Forschungsstand**: Empirischer Forschungsstand zum Anhören von Musik muss recherchiert werden (z.B. mit den Suchbegriffen "effect of songs on psychological outcomes", "music interventions", "song lyrics psychological outcomes", "music song ecological momentary intervention") und Identifikation einer Forschungslücke oder Replikation
+
+* **Wahl der Theorie(n)**: Von mir wird es eine kurze Info zu einer Theorie geben, warum wir davon ausgehen, dass Musik unseren gewünschten Effekt haben könnte. Darüber hinaus kann man recherchieren: Gibt es Theorien wie das Anhören von Musik grundsätzlich wirkt? 
+
+* **Wahl der Methode(n)**: Design weitestgehend festgelegt: Experiment mit Interventions- vs. Kontrollgruppe (between-person Vergleich); Datenauswertung hängt von der eigenen Forschungsfrage + Hypothese ab 
+
 
 ---
 class: top, left
@@ -227,9 +265,9 @@ zu werden
 
 **Gestaltungsmerkmale von wissenschaftlichen Texten**
 * **Nachvollziehbarkeit:** die Vorgangsweise ist detailliert dokumentiert (Wiederholbarkeit, damit eine Überprüfung möglich ist)
-* Es wird auf der Grundlage von **Fakten/empirischen Daten** argumentiert
-* Für Theorien und Fakten sind deren (wissenschaftliche) **Quellen** angegeben: Quellenhinweise im Text und Literaturverzeichnis
-* Verwendung von Fachbegriffen, **wissenschaftssprachliche Formulierung** und „unpersönlicher“ Schreibstil
+* **Argumentation:** Es wird auf der Grundlage von Fakten/empirischen Daten argumentiert
+* **Quellenangaben:** Für Theorien und Fakten sind deren (wissenschaftliche) Quellen aim Text und Literaturverzeichnis angegeben
+* **Sprache:** Verwendung von Fachbegriffen, wissenschaftssprachliche Formulierung und „unpersönlicher“ Schreibstil
 
 ---
 class: top, left
@@ -241,50 +279,61 @@ class: top, left
 
 <small>
 
-**Zitierwürdigkeit (aus wissenschaftlicher Sicht, d.h. zum Belegen von Aussagen)**
+**Zitierwürdigkeit (aus wissenschaftlicher Sicht, d.h. zum Belegen von Aussagen; bitte beachten Sie unbedingt auch das Alter der Quellen!)**
 
 .pull-left[
 **Zitierwürdig:**
 * **Primärliteratur**: begutachtete (*peer-reviewed*) Artikel in Fachzeitschriften (Journals; gedruckt oder digital)
-* Wissenschaftliche Fachbücher
-  - Monographien: Ein Autor schreibt zu einem Thema
-  - Herausgeberwerker: Mehrere Autoren schreiben zu einem übergreifendem Thema
+* **Wissenschaftliche Fachbücher** (aber nicht ausschließlich)
+  - Monographien: Ein Autor
+  - Herausgeberwerker: Mehrere Autoren
   - Fachlexika
+  
+**Bedingt zitierwürdig (vereinzelt in Ordnung):** graue Literatur (Dissertationen, Abschlussarbeiten, Firmenschriften) und  Internetseiten (sparsam dosieren!)
+  
 ]
 
 .pull-right[
-**Bedingt zitierwürdig:** graue Literatur (Dissertationen, Diplomarbeiten, Firmenschriften)
 
 **Nicht zitierwürdig:**
   * Praktikerbücher
   * Allgemeine Lexika (Brockhaus)
-  * Skripte
+  * Vorlesungsskripte (weder CFH, noch andere Unis), Schulbücher, PowerPoint-Präsentationen
   * Artikel in Boulevardzeitungen / nicht peer-reviewte Zeitschriften (auch falls zu wissenschaftlichen Themen, z.B. Psychologie Heute)
-  * Allgemeine Internetseiten
+  * „Abendblatt“ o.ä. (nur in Ausnahmefällen, z.B. mal um die gesellschaftliche Relevanz eines Themas aufzuzeigen)
+  * Wiki-Quellen (für einen Überblick völlig in Ordnung, aber bitte Primärquellen nachgehen)
 ]
+
+
 ---
 class: top, left
+
 ### Literaturrecherche
 
 #### Literaturarten und Umgang mit ihnen 
 
-Wenn Sie eine sehr gute Hausarbeit anstreben, Empfehlung folgende Quellen möglichst nicht zu zitieren:
+.pull-left[
+**Woran erkenne ich einen wissenschaftlichen Artikel / eine Meta-Analyse / ein Review?**
 
-* Hausarbeiten, Studienarbeiten (evtl. Diplomarbeiten)
+* In einer Fachzeitschrift ("Journal") publiziert (ob die Zeitschrift peer-reviewed ist muss eigentlich separat geprüft werden)
 
-* Schulbücher (Abiwissen, etc.)
+* Fast immer: Summary / Zusammenfassung / Abstract
 
-* ausschließlich Internetquellen (sparsam dosieren)
+* In der Psychologie: Struktur folgt Einleitung, Methode, Ergebnisse, Diskussion
 
-* „Abendblatt“ o.ä. (nur in Ausnahmefällen, z.B. mal um die gesellschaftliche Relevanz eines Themas aufzuzeigen)
+* Oft: doi (digital object identifier)
 
-* Wiki-Quellen (für einen Überblick völlig in Ordnung, aber bitte Primärquellen nachgehen)
+* Meta-Analysen und Reviews kennzeichnen dies fast immer im Titel
 
-* PowerPoint-Präsentationen
+* Literaturverzeichnis
+]
 
-* Vorlesungsskripte (weder CFH, noch andere Unis)
+.pull-right[
+```{r eval = TRUE, echo = F, fig.align='center'}
+knitr::include_graphics("bilder/metaanalysis.png")
+```
+]
 
-Bitte beachten Sie unbedingt auch das Alter der Quellen!
 
 ---
 class: top, left
@@ -323,22 +372,6 @@ class: top, left
 
 #### Recherchesysteme
 
-**OPAC = „Online Public Access Catalogue“**
-
-* Bestandskatalog in Form einer Datenbank mit - im Idealfall allen - in der Bibliothek verfügbaren Medien
-* Kann online durchsucht werden
-* In OPACs von Bibliotheksverbünden findet man Medien aus allen teilnehmenden Bibliotheken
-
-$\rightarrow$ Damit Sie außerhalb des HS-Netzes Zugriff auf die Volltexte lizenzierter Produkte haben, [müssen Sie in Ihrem Browser einen Proxy aktivieren](https://ilias.hs-fresenius.de/goto_HSF_cat_2399812.html).
-
-[**Link zum OPAC für Fresenius**](https://library.hs-fresenius.de/discovery/search?vid=49FHF_INST:49FHF&lang=de)
-
----
-class: top, left
-### Literaturrecherche
-
-#### Recherchesysteme
-
 **Google Scholar**: https://scholar.google.de/
 
 .center[
@@ -351,159 +384,8 @@ knitr::include_graphics("bilder/scholar.png")
 
 [**Anna's Archive**](https://annas-archive.org): https://annas-archive.org
 
----
-class: top, left
-name: links
+Sie müssen für die Literaturrecherche kein Geld ausgeben!
 
-### Literaturrecherche
-
-#### Nützliche Links zur Literaturrecherche
-
-<small>
-
-<small>
-
-[**DBIS -Datenbankinfosystem **](https://dbis.ur.de/dbinfo/fachliste.php?bib_id=eff&colors=7&ocolors=40&lett=l)
-Sammlung von frei zugänglichen und lizenzpflichtigen Fachdatenbanken nach Fachgebieten
-
-[**EZB - Elektronische Zeitschriftenbibliothek**](http://ezb.ur.de/ezeit/index.phtml?bibid=EFF&colors=7&lang=de)
-Umfangreichste Sammlung elektronischer Zeitschriften aller Fachgebiete in Deutschland (als Volltext verfügbar!)
-
-[**Bielefeld Academic Search Engine (BASE)**](https://www.base-search.net)
-BASE ist eine der weltweit größten Suchmaschinen für wissenschaftliche Open-Access-Dokumente.
-
-[**Hogrefe eContent **](https://econtent.hogrefe.com)
-Volltextdatenbank der Hogrefe-Verlagsgruppe mit Zeitschriften aus den Bereichen Psychologie, Psychiatrie, Medizin und Pflege
-
-[**PsycARTICLES**](https://www.apa.org/pubs/databases/psycarticles)
-Zeitschriften-Volltextdatenbank der American Psychological Association (APA) mit Beiträgen aus allen Gebieten der Psychologie 
-
-[**PubMed**](https://pubmed.ncbi.nlm.nih.gov)
-Bibliografische Datenbank zur Medizin und angrenzender Wissenschaften
-
-[**SpringerLink**](https://link.springer.com)
-Online-Bibliothek der Springer-Verlagsgruppe
-
-[**Thieme eJournals **](https://www.thieme-connect.de/products/all/home.html)
-Stellt Inhalte von rund 130 medizinischen und wissenschaftlichen Fachzeitschriften zur Verfügung
-
-[**Wiley Online Library **](https://onlinelibrary.wiley.com)
-Fächerübergreifendes Verlagsportal, das eine Vielzahl von Primärquellen unter einer Oberfläche anbietet.
-
-[**Bayerische Staatsbibliothek**](www.bsb-muenchen.de)
-
-</small>
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Recherchemethoden
-
-* **Wissenschaftssprache ist Englisch!** $\rightarrow$ Suchen Sie nach englischen Schlagwörtern
-
-* "Boolean Operators": schlau suchen = bessere Ergebnisse
-  - Anführungzeichen "SUCHE", z.B. "effects of computer games": Worte werden nur gruppiert gesucht, in der angegeben Reihenfolge
-  - AND oder +, z.B games AND well-being: Jeder Suchbegriff soll vorkommen, nur die Suchergebnisse werden angezeigt, die beide Worte beinhalten.
-  - NOT oder -, z.B. games NOT depression: Der erste Begriff wird gesucht und alles andere ausgeschlossen.
-  - OR, z.B. games OR computer OR media: Sucht nach allen Begriffen gleichzeitig
-
-* Suchmaschinen wie Google suchen oft nach genauer Zeichenfolge
-  - Singular/Plural, Wortzusammensetzungen, synonyme, ähnliche Begriffe berücksichtigen 
-  - Trunkieren
-    + ?: Platzhalter für genau ein Zeichen
-    + \*: Platzhalter für beliebig viele Zeichen
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Recherchemethoden
-
-##### Systematische Recherche
-
-* Konkrete Recherche mittels Suchmaschinen, Fachdatenbanken, Portalen etc.
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "600px"}
-knitr::include_graphics("bilder/systematische.png")
-```
-]
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Recherchemethoden
-
-##### Schneeballprinzip
-
-* man beginnt mit einer zuverlässigen Quelle
-* im Literaturverzeichnis: Weitere Veröffentlichungen zu diesem Thema 
-* in jeder dieser Veröffentlichungen finden sich weitere Quellen
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "550px"}
-knitr::include_graphics("bilder/schneeball.png")
-```
-]
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Recherchemethoden
-
-##### Systematische Recherche vs. Schneeballprinzip
-
-.pull-left[
-**Systematische Recherche**
-* Lohnt sich für Einblick ohne besonderes Vorwissen (wenige bzw. keine weiteren Literaturhinweise)
-* Sehr umfassende Literaturrecherche
-* Wenn es wirklich umfassend gemacht wird
-bedarf es einem hohem Zeitaufwands
-* Zu allgemeine Suchanfrage sehr große Treffermenge
-* Bedarf einiges an Übung um gezielt zu Recherchieren
-]
-
-.pull-right[
-**Schneeballprinzip**
-* Bietet sich an, wenn Sie bereits einen guten Ausgangspunkt für Ihr Thema haben
-* Besonders gut für die Recherche nach Grundlagenliteratur oder nach sehr aktueller Literatur bei sehr konkretem Thema geeignet
-* Hohe Recherchegeschwindigkeit
-* Vorsicht: möglicherweise einseitige Betrachtung
-eines Themas
-* Unvollständige Suche
-]
-
-$\rightarrow$ Kombination beider Methoden!
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Literaturverwaltung
-
-.pull-left[
-* Viele verschiedene Softwarelösungen, probieren Sie aus was Sie effektiv unterstützt!
-* Ein mächtiges Tool ist Zotero: https://www.zotero.org/
-* Auch für Zusammenarbeit in Gruppen nützlich (geteilte Literaturordner)
-
-* Vergleiche: 
-  - https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-762961
-  - https://mediatum.ub.tum.de/doc/1316333/1316333.pdf
-]
-
-.pull-right[
-```{r eval = TRUE, echo = F, fig.show='hold',fig.align='center'}
-knitr::include_graphics("bilder/zotero.png")
-```
-]
 
 ---
 class: top, left
@@ -513,7 +395,7 @@ class: top, left
 
 .center[
 ```{r eval = TRUE, echo = F}
-knitr::include_graphics("bilder/bewertung_literatur.png")
+knitr::include_graphics("bilder/bewertung_literatur2.png")
 ```
 
 ```{r eval = TRUE, echo = F}
@@ -533,318 +415,6 @@ class: top, left
 knitr::include_graphics("bilder/prereg_template_forschungsfrage.png")
 ```
 ]
-
----
-class: top, left
-name: lesen
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-.center[
-"*Die guten Leutchen wissen nicht, was es einen für Zeit und Mühe kostet, um Lesen zu lernen.  Ich habe achtzig Jahre dazu gebraucht und kann jetzt noch nicht sagen, dass ich am Ziele wäre!*"
-
-(Johann Wolfgang Goethe)
-]
-
-.pull-left[
-**3 Schritte**:
-
-* Vorbereitung
-* Das eigentliche Lesen
-* Gelesenes festhalten
-]
-
-.pull-right[
-```{r eval = TRUE, echo = F, out.width = "50%", fig.show='hold',fig.align='center'}
-knitr::include_graphics("bilder/goethe.jpg")
-```
-]
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Vorbereitung
-
-**1. Leseziel bestimmen**
-
-* Was will ich durch das Lesen der Information erreichen? 
-  * Neue Ideen
-  * Prüfungsvorbereitung
-  * Referat
-  * Forschung
-
-* Muss ich den ganzen Text lesen?
-
-* Nur einen bestimmten Abschnitt und welchen?
-
-* Nur wichtige Details?
-
-$\rightarrow$ Davon hängt die Art des Lesens ab und wie Sie das Gelesene festhalten!
-
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Vorbereitung
-
-**2. Überblick verschaffen**
-
-* Auskunft über den Verfasser
-
-* Publikationsart
-
-* Erscheinungsjahr
-
-* Vorwort, Abstract
-
-* Einführung
-
-* Anhang, Diskussion
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Vorbereitung
-
-**3. Fragen an sich selbst stellen**
-
-* Weiß ich etwas über den Stoff? 
-
-* Was weiß ich noch nicht?
-
-* In welchem Zusammenhang habe ich schon davon gehört?
-
-* Welche Definitionen, Begriffe, Fachausdrücke werden herangezogen?
-
-* Welche Relevanz hat das Thema für mich?
-
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Vorbereitung
-
-**4. Planen**
-
-.pull-left[
-* **Abschätzen des Arbeitsaufwands**
-  * Wie viel Zeit habe ich? 
-  * Schwierigkeit des Texts? 
-  * Wie viel Zeit werde ich benötigen?
-  * Zeitplan erstellen, inklusive Pausen und Wiederholungen
-]
-
-.pull-right[
-* **Abschätzen möglicher Schwierigkeiten bei der Textverarbeitung**
-  * Hindernisse (Lärm, Zeitmangel, Konzentrationsschwierigkeiten, etc.)
-  * Besondere Schwierigkeiten des Textes (Fremdsprache, Fachsprache…)
-  * Geeigneten Rahmen schaffen
-]
-
-* **Lernaktivitäten**
-  * Anzahl der Lesedurchgänge festlegen
-  * Lesepausen
-  * Wiederholung 
-  * Verständnis prüfen
-
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Das eigentliche Lesen
-
-<small>
-
-* **Kursorisches Lesen**: 
-  * Überfliegen des Textes zu Überblick und Orientierung
-  * z.B. Ist der Text für mich verständlich geschrieben? 
-  * Ist er für mich interessant und verwendbar?
-
-* **Selektives Lesen**: 
-  * Konzentration auf interessante Aspekte
-  * Fragen vor dem Lesen: Was weiß ich schon? Was suche ich genau?
-  * Fragen während des Lesens: Wovon handelt der Text? Entspricht er den Suchkriterien? Was sagt der Text über das Gesuchte aus? Welche Absicht verfolgt der Text?
-
-* **Studierendes Lesen**: 
-  * systematische und vertiefte Analyse
-  * PQ4R-Methode: **P**review, **Q**uestion, **R**ead, **R**eflect, **R**ecite, **R**eview
-
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Das eigentliche Lesen
-
-<small>
-
-**PQR4**
-
-**P**review
-* Überfliegen aller Kapitel, um das allgemeine Thema zu begreifen.
-* Identifizieren der Abschnitte, die als Einheit zu lesen sind.
-* Überschriften für die einzelnen Abschnitte finden.
-
-**Q**uestion
-* Formulieren von Fragen zu den Abschnitten.
-* Oftmals genügt eine Umformulierung der Abschnittsüberschriften, um eine angemessene Frage zu stellen.
-
-**R**ead
-* Sorgfältiges Lesen des Abschnitts, indem man versucht, die Fragen zu beantworten, die man dazu gestellt hat.
-* *Wichtige* Textpassagen markieren und Schlüsselbegriffe festhalten.
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Das eigentliche Lesen
-
-<small>
-
-**PQR4**
-
-.pull-left[
-**R**eflect (während des Lesens)
-* Aktiv darüber nachdenken
-* Versuchen, Information zu verinnerlichen
-* Beispiele finden
-* Text in Bezug zum eigenen Vorwissen setzen
-]
-
-.pull-right[
-**R**ecite
-* Nachdem man einen Abschnitt fertig bearbeitet hat, versucht man sich an die darin enthaltenen Informationen zu erinnern.
-* Man versucht, die Fragen zu beantworten, die man zu diesem Abschnitt formuliert hat.
-]
-
-**R**eview
-* Nachdem man den ganzen Text durchgearbeitet hat, geht man ihn nochmals in Gedanken durch und ruft sich die wichtigsten Punkte ins Gedächtnis.
-* Man versucht, die Fragen zu beantworten, die man gestellt hat.
-
----
-class: top, left
-<div class="footer"><span>Rayner, K., Schotter, E. R., Masson, M. E., Potter, M. C., & Treiman, R. (2016). So much to read, so little time: How do we read, and can speed reading help? Psychological Science in the Public Interest, 17(1), 4-34.</span></div>
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Das eigentliche Lesen
-
-.center[
-```{r, echo=FALSE,out.width="60%",fig.show='hold',fig.align='center'}
-knitr::include_graphics("bilder/rayner2016.PNG")
-``` 
-]
-
----
-class: top, left
-<div class="footer"><span>http://www.quickmeme.com/meme/3t52vi</span></div>
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Umgang mit dem Text
-
-<small>
-
-.pull-left[
-**Zusammenfassung**
-* Aktive Form der Textaneignung
-* Man ist gezwungen „eng“ am Text zu arbeiten
-* Komprimierter Wissensspeicher, auf den man zurückgreifen kann
-
-**Unterstreichen**
-* Wichtige Stichwörter und Textstellen
-* Wenig zeitaufwendig, überall durchführbar
-* Erst beim zweiten Durchgang unterstreichen
-* Verschiedene Farben für Definitionen, Beispiele usw.
-* Immer dasselbe Markierungssystem verwenden
-]
-
-.pull-right[
-```{r, echo=FALSE,fig.show='hold',fig.align='center'}
-knitr::include_graphics("bilder/highlight.jpg")
-``` 
-]
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Umgang mit dem Text
-
-
-
-.pull-left[
-**Randbemerkungen und Markierungssymbole**
-* Inhalt des Textes wird mit eigenem Wissen verbunden. Der Leser fügt dem Text etwas hinzu, was nicht explizit drin steht.
-* Elaboration fördert das Behalten von aufgenommenen Informationen
-* Systematische Vorgehensweise
-* Immer das gleiche System verwenden!
-]
-
-.pull-right[
-```{r, echo=FALSE,fig.show='hold',fig.align='center', out.width="70%"}
-knitr::include_graphics("bilder/symbole.png")
-``` 
-]
-
----
-class: top, left
-
-### Literaturrecherche
-
-#### Lesetechniken
-
-##### Umgang mit dem Text
-
-**Exzerpieren**
-* lat. „excerpere“ = herausnehmen: auszugsweise Wiedergabe des Textes
-* Dinge auf den Punkt bringen und Wesentliches kurz und knapp zusammenschreiben.
-* Zu empfehlen: 
-  * Karteikarten (oder Literaturverwaltungsprogramme!)
-  * Standortstellen und Signatur der Publikation notieren
-  * Knapp formulieren, jedoch so, dass der gedankliche Zusammenhang später nachvollziehbar ist
-  * Breiter Rand für Zusätze und Kommentare
-  * Bilder/Grafische Darstellungen
-* Nicht zu empfehlen
-  * Lesenotizen auf lose Blätter schreiben
-  * Zu knapp
-    
-**Visualisierung (z.B. Mindmaps)**
 
 
 ---
@@ -963,6 +533,38 @@ class: top, left
 
 ---
 class: top, left
+name: praxis
+
+### Praxis: Idee entwickeln & Literaturrecherche
+
+**Schritt 1: Führen Sie eine kurze Literaturrecherche durch.** 
+* Gibt es Reviews oder Meta-Analysen zu Ihren Untersuchungsideen? Gibt es aktuelle empirische Studien (d.h. von 2020 oder neuer), die dazu passen?
+  * Lesen Sie die Abstracts.
+  * Schreiben Sie sich interessante Methoden und Ergebnisse raus.
+
+* Strukturieren/Kommentieren Sie die gefundene Literatur, z.B. in einem Literaturverwaltungsprogramm
+
+* **Leitfragen bei der Literaturrecherche:**
+  * Welche Antworten gibt es zu diesem Thema bereits?
+  * Welche Fragen sind noch ungeklärt? Und wie kann ich Antworten auf diese Fragen finden?
+
+---
+class: top, left
+
+### Praxis: Idee entwickeln & Literaturrecherche
+
+**Schritt 2: Einigen Sie sich auf ein Thema und geben Sie Ihrer Gruppe einen Namen**
+  * Bewerten Sie dafür Ihre Ideen hinsichtlich der gefundenen Literatur und nach den Anforderungen aus Einheit 1 und einigen Sie sich auf ein Thema.
+  * Idealerweise hat Ihr Gruppenname etwas mit Ihrem Thema zu tun
+  * Teilen Sie mir Ihren Gruppennamen und Ihr Thema **bis spätestens (!) 26.04.** über die [Umfrage im studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilobjsurveygui&cmd=infoScreen&ref_id=26551) mit (eine Umfrage pro Gruppenmitglied).
+  
+**Schritt 3 (kann auch parallel mit Schritt 2 passieren): Strukturieren Sie Ihre Themenidee zu einer Forschungsfrage (kann auch eine Replikation sein).** 
+  * Bewerten Sie  Ihre Forschungsfrage nach wissenschaftlichen und ethischen Kriterien (siehe "Bewertung von Forschungsfragen" im [Zusatzmaterial Z2 auf studynet](https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=27540)).
+  * Beginnen Sie damit, das [Präregistrierungstemplate auf studynet](https://studynet.hs-fresenius.de/goto_STUDYNETHSF_file_27541_download.html) (Abschnitt I1 und I2) mit den Inhalten zu füllen, die zu der Auswahl ihrer Forschungsfrage geführt haben.
+  * Mittelfristig: Intensivieren Sie die Literaturrecherche, um die Forschungsfrage zu schärfen (vgl. auch nächste Sitzung)
+  
+---
+class: top, left
 name: zit-start
 
 ### Quellen & Referenzen
@@ -1024,136 +626,7 @@ knitr::include_graphics("bilder/apa7.jpg")
 
 [**Link zum kostenfreien Nachlesen vom APA-Style guide der Purdue University**](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_author_authors.html)
 
----
-class: top, left
 
-### Quellen & Referenzen
-
-#### Zitationssysteme
-
-* Gekürzte Quellenangaben im Haupttext:
-  * „Direkte Zitate“: Autorenname(n), Erscheinungsjahr, Seitenangabe 
-  * Indirekte Zitate: Autorenname(n), Erscheinungsjahr
-
-* Zitationen können, müssen aber nicht im Fließtext eingebettet werden:
-  * Im Fließtext: 
-      - 2 Autoren: Wie Müller und Huber (2000) zeigen ...
-      - Mehr als 2 Autoren: Wie Müller et al. (2000) zeigen ...
-  * Nicht im Fließtext: 
-      - 2 Autoren: Folgendes konnte gezeigt werden ... (Müller & Huber, 2000).
-      - Mehr als 2 Autoren: Folgendes konnte gezeigt werden ... (Müller et al., 2000).
-  
-* Ausnahme zur "et al."-Regel: Führt dies zu Mehrdeutigkeit (z.B. zwei Quellen mit dem-/derselben ErstautorIn aus demselben Jahr), werden so viele Namen aufgelistet, wie zur Unterscheidung beider Quellen erforderlich ist.
-
----
-class: top, left
-name: zitate
-
-### Quellen & Referenzen
-
-#### Indirekte vs. Direkte Zitate
-
-Indirekte Zitate (in Wissenschaft mit Abstand am häufigsten verwendet)
-
-* Gedankengänge anderer Autoren werden sinngemäß übernommen
-
-* Werden regelmäßig eingesetzt
-
-* Stehen ohne Anführungszeichen
-
-* Inhalte bleiben trotz Umformulierung identisch
-
-* Quellenbeleg: Autor und Erscheinungsjahr
-
----
-class: top, left
-### Quellen & Referenzen
-
-#### Indirekte vs. Direkte Zitate
-
-Indirekte Zitate – Beispiel:
-
-Im Alltag müssen wir oft überprüfen, ob beispielsweise ein bestimmtes Objekt einer bestimmten Gruppe zugeordnet werden kann **(Daschmann, 2001)**. Um dieses Urteil fällen zu können, vergleichen wir das Objekt mit dem Prototyp einer Kategorie, mit welchem es die meiste Ähnlichkeit aufweist. Andere validere Informationen werden dabei vernachlässigt **(Werth & Mayer, 2008)**. Dadurch kann es zu Fehlurteilen kommen. Hierzu gehören, dass die summarische Realitätsbeschreibung ignoriert wird, Stichprobengrößen nicht zur Kenntnis genommen und Zufallsverteilungen falsch eingeschätzt werden **(Daschmann, 2001)**. **Kahneman und Tversky (1973)** konnten diese Phänomene nachweisen.
-
----
-class: top, left
-### Quellen & Referenzen
-
-#### Indirekte vs. Direkte Zitate
-
-
-
-Direkte Zitate
-
-* Wortwörtliche Übernahme
-
-* Sparsame Verwendung (sonst ist es nur abschreiben)
-
-* Stehen (meist) in Anführungszeichen
-
-* Quellenbeleg: Autor, Erscheinungsjahr und Seitenzahl der übernommen Stelle
-
----
-class: top, left
-### Quellen & Referenzen
-
-#### Indirekte vs. Direkte Zitate
-
-Direkte Zitate - Beispiel 
-
-<small>
-
-* Ein Satz
-
-„Ein Experiment beginnt – wie andere wissenschaftliche Untersuchungen auch – im Allgemeinen mit einer Fragestellung“ **(Beck, 2009, S. 81)**.
-
-* Einleitung durch einen Doppelpunkt
-
-**Beck (2009)** meint dazu: „Ein Experiment beginnt – wie andere wissenschaftliche
-Untersuchungen auch – im allgemeinen mit einer Fragestellung“ **(S. 81)**. 
-
-* Syntaktische Verschmelzung mit einem Satz
-
-Bezüglich eines Experiments stellt **Beck (2009)** fest, dass es „(...) im allgemeinen mit einer Fragestellung [beginnt]“ **(S. 81)**.
-
-* Auf englisch "p." (für *page*) statt "S."
-
----
-class: top, left
-name: mehrere-quellen
-
-### Quellen & Referenzen
-
-#### Mehrere Quellen für die selbe Aussage
-
-Mehrere Quellen werden durch Strichpunkt getrennt (für jede Quelle muss ein Eintrag im Literaturverzeichnis vorhanden sein!)
-
-* Z.B. wenn man zum Ausdruck bringen möchte, dass ein Befund gut belegt ist:
-
-Conscientiousness was also found to be inversely associated with impulsiveness **(Mowen, 2000; Rocas, Sagiv, Schwartz, & Knafo, 2002)**
-
-
-#### Mehrere Quellen des selben Autors
-
-Hat ein Autor mehrere Quellen in einem Jahr veröffentlicht, unterscheidet man die Quellen durch den Zusatz von „a“, „b“, ...bei der Jahresangabe
-
-**(Müller, 2000a, S. 5.; Müller, 2000b, S. 25)**. -> Gilt bei direkten und indirekten Zitaten
-
-* Die Reihenfolge der Nummerierung richten sich alphabetisch nach dem Titel der Quelle.
-
----
-class: top, left
-name: mehrere-quellen
-
-### Quellen & Referenzen
-
-#### Autoren mit dem gleichen Familiennamen
-
-Der Anfangsbuchstabe des Vornamen wird vorangestellt: z.B. In einigen Studien (J. Müller, 2010; K. Müller, 2009) ...
-
-#### Weitere Besonderheiten (z.B. sehr lange direkte Zitate)
-
-Im Zweifelsfall im APA-Manual nachschauen!
 
 ---
 class: top, left
@@ -1178,23 +651,6 @@ Das Literaturverzeichnis....
 
 * "hängend" formatieren (Einrückung in der zweiten Zeile)
 
----
-class: top, left
-### Quellen & Referenzen
-
-#### Literaturverzeichnis
-
-Allgemeine Inhalte der Quellenangabe im Literaturverzeichnis
-
-* Vorname (Initiale) und Zuname des Autors / der Autoren (i.d.R. werden hier alle angegeben, außer es sind mehr als 20)
-
-* Erscheinungsjahr
-
-* Titel der Quelle
-
-* Ggf. Auflage (erst ab der 2. Auflage)
-
-* Angaben zur eindeutigen Identifikation der Quelle je nach Art der Quelle (Zeitschriftenname / URL / ...) $\rightarrow$ Hier unterscheiden sich die Angaben je nach Literaturgattung (also Paper, Monographien, Sammelbänder, etc.)
 
 ---
 class: top, left
@@ -1256,6 +712,12 @@ knitr::include_graphics("bilder/bewertung_zitate.png")
 ```
 ]
 
+`\(\rightarrow\)` wird 2x bewertet: bei Gruppenarbeit und bei Einzelleistung!
+
+`\(\rightarrow\)` letztes Jahr nur sehr wenige Gruppen mit voller Punktzahl -- das ist schade, denn das sind klassische "Fleißpunkte", wo man nur nachschauen muss, wie es geht
+
+`\(\rightarrow\)` daher unbedingt den Abschnitt "Quellen & Referenzen" im Zusatzmaterial  auf studynet anschauen!!
+
 ---
 class: top, left
 name: take-away
@@ -1283,27 +745,4 @@ name: take-away
 ]
 ]
 
-**[zurück zur heutigen Übersicht der Vorlesung $\rightarrow$](#content)** 
 
----
-class: top, left
-name: praxis
-
-### Praxis: Idee entwickeln & Literaturrecherche
-
-<small>
-
-**Schritt 1: Führen Sie eine kurze Literaturrecherche durch.** 
-* Gibt es Reviews oder Meta-Analysen zu Ihren Untersuchungsideen? Wenn nicht: Gibt es aktuelle empirische Studien (d.h. von 2020 oder neuer), die dazu passen?
-  * Lesen Sie die Abstracts.
-  * Schreiben Sie sich interessante Methoden und Ergebnisse raus.
-* Strukturieren/Kommentieren Sie die gefundene Literatur, z.B. in einem Literaturverwaltungsprogramm
-
-**Leitfragen bei der Literaturrecherche:**
-* Welche Antworten gibt es zu diesem Thema bereits?
-* Welche Fragen sind noch ungeklärt? Und wie kann ich Antworten auf diese Fragen finden?
-
-**Schritt 2: Strukturieren Sie Ihre Ideen zu einer Forschungsfrage (kann auch eine Replikation sein).** 
-* Bewerten Sie dafür Ihre Ideen zunächst auch nach wissenschaftlichen und ethischen Kriterien (vgl. dazu auch Kriterien für unserer Praxisprojekt von Folien der letzten Sitzung).
-* Beginnen Sie damit, das [Präregistrierungstemplate auf studynet](https://studynet.hs-fresenius.de/goto_STUDYNETHSF_file_22808_download.html) (Abschnitt I1 und I2) mit den Inhalten zu füllen, die zu der Auswahl ihrer Forschungsfrage geführt haben.
-* Mittelfristig: Intensivieren Sie die Literaturrecherche, um die Forschungsfrage zu schärfen (vgl. auch nächste Sitzung)
