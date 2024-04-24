@@ -152,7 +152,7 @@ name: forschungsprozess-prereg
 ]
 
 .pull-right[
-```{r eval = TRUE, echo = F, out.width="60%", fig.align='center'}
+```{r eval = TRUE, echo = F, out.width="100%", fig.align='center'}
 knitr::include_graphics("bilder/Forschungsprozess_Prereg.png")
 ```
 ] 
@@ -308,11 +308,12 @@ class: top, left
 ---
 class: top, left
 
+.pull-left[
 ### Literaturrecherche
 
 #### Literaturarten und Umgang mit ihnen 
 
-.pull-left[
+
 **Woran erkenne ich einen wissenschaftlichen Artikel / eine Meta-Analyse / ein Review?**
 
 * In einer Fachzeitschrift ("Journal") publiziert (ob die Zeitschrift peer-reviewed ist muss eigentlich separat geprüft werden)
@@ -398,9 +399,6 @@ class: top, left
 knitr::include_graphics("bilder/bewertung_literatur2.png")
 ```
 
-```{r eval = TRUE, echo = F}
-knitr::include_graphics("bilder/bewertung_forschungsfrage.png")
-```
 ]
 
 
