@@ -381,11 +381,11 @@ class: top, left
 #### Bewertungsschema und Präregistrierung
 
 .center[
-```{r eval = TRUE, echo = F}
+```{r eval = TRUE, echo = F, out.width = "80%"}
 knitr::include_graphics("bilder/bewertung_hypothesen.png")
 ```
 
-```{r eval = TRUE, echo = F}
+```{r eval = TRUE, echo = F, out.width = "80%"}
 knitr::include_graphics("bilder/bewertung_trennunghypothesen.png")
 ```
 ]
