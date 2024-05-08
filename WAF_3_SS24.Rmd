@@ -150,34 +150,19 @@ Digitale Literaturrecherche:
 class: top, left
 ### Planung von Studien
 
-#### "The Replication Recipe"
+#### Hypothesenformulierung
 
-.center[
-```{r eval = TRUE, echo = F, out.width = "600px"}
-knitr::include_graphics("bilder/Brandt2014.png")
-```
-]
+* Führen Sie **spezifische, prägnante und überprüfbare** Hypothesen auf
 
----
-class: top, left
-### Planung von Studien
+* Benutzen Sie möglichst **eindeutige Begriffe** (aus der Literatur) für in der Hypothese vorkommende/relevante Variablen
 
-####  Hypothesenformulierung
+* Überlegen Sie, ob es sich um **gerichtete oder ungerichtete** Hypothesen handelt und formulieren Sie Ihre Hypothesen entsprechend 
 
-<small>
-
-* Führen Sie spezifische, prägnante und überprüfbare Hypothesen auf
-
-* Benutzen Sie möglichst eindeutige Begriffe (aus der Literatur) für in der Hypothese vorkommende/relevante Variablen
-
-* Überlegen Sie, ob es sich um gerichtete oder ungerichtete Hypothesen handelt und formulieren Sie Ihre Hypothesen entsprechend 
-
-* Hypothesen können in Primär- und Sekundärhypothesen unterteilt werden (z.B. Primärhypothese: "Je mehr Bestätigung ein Kind von seinen Eltern erfährt, desto höher ist der spätere Selbstwert.", Sekundärhypothese: "Dieser Zusammenhang ist besonders stark für Einzelkinder im Vergleich zu Kindern mit einem oder mehr Geschwistern.")
+* Hypothesen können in **Primär- und Sekundärhypothesen** unterteilt werden (z.B. Primärhypothese: "Je mehr Bestätigung ein Kind von seinen Eltern erfährt, desto höher ist der spätere Selbstwert.", Sekundärhypothese: "Dieser Zusammenhang ist besonders stark für Einzelkinder im Vergleich zu Kindern mit einem oder mehr Geschwistern.")
 
 * Konfirmatorische Hypothesen sind von explorativen Fragestellungen zu trennen (d.h. davon, was man sich sonst noch so anschauen möchte, ohne konkrete Annahme oder Spezifikation der konkreten Analyse)
 
 * Achten Sie bereits in Ihren Hypothesen darauf kausale Sprache zu vermeiden ("X beeinflusst Y"), wenn Sie kein Studiendesign planen, welches kausale Schlüsse zulässt (stattdessen z.B. "X hängt zusammen mit Y" oder "Je mehr X, desto mehr Y")
-
 ---
 class: top, left
 name: hypothesen
