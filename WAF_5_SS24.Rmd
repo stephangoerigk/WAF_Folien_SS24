@@ -65,17 +65,11 @@ name: formr
 
 ### formr
 
-**Zusätzlicher Login bei der formr Testumgebung:**
-
 * https://workshops.formr.org/
 
-* Email: cfhwaf2@gmail.com
+* Email: cfh.formr@gmail.com
 
-* PW: eX9Sh6nt!
-
-(d.h. gleicher Link, gleiches Passwort, aber Emailadresse hat eine 2 vor dem @)
-
-`\(\rightarrow\)` entscheiden Sie sich für einen der beiden Logins!
+* PW: cfh_formr24*
 
 ---
 class: top, left
@@ -149,8 +143,10 @@ name: analyse
 ]
 
 .pull-right[
-<img src="data:image/png;base64,#bilder/Forschungsprozess_Prereg.png" width="4927" style="display: block; margin: auto;" />
-]
+```{r eval = TRUE, echo = F, out.width="100%", fig.align='center'}
+knitr::include_graphics("bilder/Forschungsprozess_Prereg.png")
+```
+] 
 
 ---
 class: top, left
@@ -160,6 +156,8 @@ class: top, left
 ### Analyseplan
 
 #### Wichtige Elemente
+
+<small>
 
 * **Weitere Datenvorverarbeitung** (z.B. *z*-Standardisierung, ggf. nötige Bildung von Differenzen zwischen Messungen, bei Manipulationen Umgang mit Manipulationschecks, Umgang mit Ausreißern oder fehlenden Daten): In welcher Weise sollen die Daten verarbeitet und bereinigt werden, bevor sie in die Analyse eingehen?
 
@@ -171,6 +169,11 @@ class: top, left
   - Festlegung von zu berechnenden **Effektstärken**
 
 * **Korrekturmethoden bei multiplen Tests** (um alpha-Fehler Kumulierung zu vermeiden), z.B. Bonferroni-Korrektur des Alpha-Niveaus wenn selbe Hypothese für verschiedene AVs getestet wird
+
+```{r eval=F}
+p.adjust(pwerte, method = "bonferroni")
+```
+
 
 ---
 class: top, left
@@ -193,11 +196,21 @@ class: top, left
 
 #### Weitere Datenvorverarbeitung
 
+<small>
+
 * **z-Standardisierung**: Transformation des Mittelwerts auf 0 und Standardabweichung auf 1 `\(\rightarrow\)` macht oft bei Regressionen Sinn, wenn Originaleinheit der Variablen nicht eingängig (z.B. oft bei Summenwerten)
+
+```{r eval=F}
+data$variable_z = scale(data$variable)
+```
 
 * **ggf. nötige Bildung von Differenzen zwischen Messungen**: z.B. für Interventionsthema Differenzbildung zwischen Post- und Prä-Messung, um Veränderung abzubilden
 
-* **bei Manipulationen Umgang mit Manipulationschecks**: z.B. wenn beim Interventionsthema Versuchspersonen das Lied nicht angehört haben / anhören konnten, gehen Sie dann trotzdem in die Analyse ein?
+```{r eval=F}
+data$veraenderung = data$variable_zeitpunkt1 - data$variable_zeitpunkt2
+```
+
+* **bei Manipulationen Umgang mit Manipulationschecks**: z.B. wenn beim Intervention nicht richtig erfolgt, gehen Personen dann trotzdem in die Analyse ein?
 
 * **Umgang mit Ausreißern**: unüberlegter Ausschluss von Ausreißern wird in der Literatur kritisch diskutiert, da auch Extremwerte Teil einer Normalverteilung sind; zumindest Einfluss auf die Ergebnisse sollte diskutiert werden
 
@@ -239,9 +252,9 @@ class: top, left
 
 #### Präregistrierung
 
-.center[
-<img src="data:image/png;base64,#bilder/prereg_template_analyse1b.png" width="60%" />
-]
+```{r eval = TRUE, echo = F, out.width="55%", fig.align='center'}
+knitr::include_graphics("bilder/prereg_einheit5.png")
+```
 
 
 ---
@@ -250,9 +263,9 @@ class: top, left
 
 #### Präregistrierung
 
-.center[
-<img src="data:image/png;base64,#bilder/prereg_template_analyse2.png" width="60%" />
-]
+```{r eval = TRUE, echo = F, out.width="55%", fig.align='center'}
+knitr::include_graphics("bilder/prereg_einheit5_2.png")
+```
 
 ---
 class: top, left
@@ -260,7 +273,9 @@ name: beispiel
 
 ### Analyseplan
 
-#### Beispielhafte Überlegungen für das Interventionsthema
+#### Beispielhafte Überlegungen:
+
+<small>
 
 * Wir haben erheben dieselben Variablen vor dem Anhören von verschiedenen Liedern und danach und bilden daraus für jede Variable eine Differenz (Post-Prä)
 
@@ -292,7 +307,9 @@ class: top, left
 
 ### Analyseplan
 
-#### Beispielhafte Überlegungen für das Interventionsthema
+#### Beispielhafte Überlegungen:
+
+<small>
 
 ... wenn man sich nun weitere Einflüsse auf die Stärke des Effekts (d.h. des Unterschieds zwischen den Bedingungen in der Veränderung der Variable) anschauen möchte, muss man Moderationsanalysen in einem Regressionsmodell rechnen:
 
@@ -314,6 +331,8 @@ class: top, left
 
 #### Beispielhafte Überlegungen für das Interventionsthema
 
+<small>
+
 ... wenn man sich nun weitere Einflüsse auf die Stärke des Effekts (d.h. des Unterschieds zwischen den Bedingungen in der Veränderung der Variable) anschauen möchte, muss man Moderationsanalysen in einem Regressionsmodell rechnen:
 
 `\(\rightarrow\)` **statistische Analyse:** Lineare Regression mit AV = Post-Prä-Differenz der Variable X und UVs = Haupteffekt Bedingung (Lied A vs. Lied B, dummykodiert), Haupteffekt ängstlicher Bindungsstil, Interaktionseffekt Bedingung x ängstlicher Bindungsstil
@@ -332,9 +351,9 @@ class: top, left
 
 #### Präregistrierung
 
-.center[
-<img src="data:image/png;base64,#bilder/prereg_template_analyse3a.png" width="60%" />
-]
+```{r eval = TRUE, echo = F, out.width="55%", fig.align='center'}
+knitr::include_graphics("bilder/prereg_einheit5_3.png")
+```
 
 ---
 class: top, left
@@ -342,9 +361,9 @@ class: top, left
 
 #### Präregistrierung
 
-.center[
-<img src="data:image/png;base64,#bilder/prereg_template_analyse3b.png" width="60%" />
-]
+```{r eval = TRUE, echo = F, out.width="55%", fig.align='center'}
+knitr::include_graphics("bilder/prereg_einheit5_4.png")
+```
 
 
 ---
@@ -353,18 +372,19 @@ class: top, left
 
 #### Präregistrierung
 
-.center[
-<img src="data:image/png;base64,#bilder/prereg_template_analyse3c.png" width="60%" />
-]
+```{r eval = TRUE, echo = F, out.width="55%", fig.align='center'}
+knitr::include_graphics("bilder/prereg_einheit5_5.png")
+```
+
 ---
 class: top, left
 ### Analyseplan
 
 #### Bewertungsschema
 
-.center[
-<img src="data:image/png;base64,#bilder/bewertung_methoden.png" width="1869" />
-]
+```{r eval = TRUE, echo = F, out.width="100%", fig.align='center'}
+knitr::include_graphics("bilder/bewertung_5.png")
+```
 
 <!-- --- -->
 <!-- class: top, left -->
@@ -420,8 +440,6 @@ name: material
 *	**Checkliste Ethik**: https://studynet.hs-fresenius.de/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=26580
 
 * **Template Präregistrierung**: https://studynet.hs-fresenius.de/goto_STUDYNETHSF_file_27541_download.html
-
-* **Template formr eigenes Thema**: https://studynet.hs-fresenius.de/goto_STUDYNETHSF_file_28654_download.html
 
 * **Link zu formr**: https://workshops.formr.org/
 
